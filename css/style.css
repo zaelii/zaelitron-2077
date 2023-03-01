@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 body {
     background: url(../img/fundo.jpg);
     background-position: center center;
@@ -27,6 +30,30 @@ main {
     margin: 10vh 8vw 10vh 12vw;
     display: flex;
     gap: 1vw;
+}
+
+.alterar {
+    margin: 2px;
+    width: 100px;
+    background-color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    border: none;
+    font-size: 16px;
+}
+
+.alterar:hover {
+    border: 1px solid #FFFFFF;
+    background: var(--main-preto);
+    color: var(--main-branco)
+}
+
+.botoes {
+    
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+    
 }
 
 .robotron {
@@ -209,6 +236,8 @@ main {
     margin: 10px 0 0;
 }
 
+
+
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
@@ -231,3 +260,4 @@ main {
         margin: 10vh auto;
     }
 }
+
